@@ -1,12 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="726095a8-5af7-4a86-bed0-aa750e528cd6" name="Default Changelist" comment="" />
+    <list default="true" id="726095a8-5af7-4a86-bed0-aa750e528cd6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Amo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playML/Bayers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playML/LinearRegression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playML/SimpleLinearRegression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playML/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playML/metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playML/model_selection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playML/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bayers_fm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Bayers_fm.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iris_plt.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/iris_plt.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/playML/kNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k_nn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/k_nn.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu_info.xlsx" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="school@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="school@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="school@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="school: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1847387424">
@@ -40,28 +86,112 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1357320007">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="4" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.opened" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="c" value="6" />
+          <entry key="d" value="5" />
+          <entry key="e" value="7" />
+          <entry key="ipynb" value="2" />
+          <entry key="o" value="5" />
+          <entry key="py" value="22" />
+          <entry key="s" value="8" />
+          <entry key="sql" value="24" />
+          <entry key="t" value="5" />
+          <entry key="table_1" value="3" />
+          <entry key="xml" value="1" />
+          <entry key="yxh" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Database Element" value="39" />
+          <entry key="IPNB" value="2" />
+          <entry key="Python" value="22" />
+          <entry key="SQL" value="1" />
+          <entry key="Scratch" value="24" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cell" value="27" />
+          <entry key="py" value="7152" />
+          <entry key="sql" value="2955" />
+          <entry key="txt" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="7152" />
+          <entry key="Scratch" value="2982" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/playML/Bayers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1544809099860" expanded="true" signature="96:262" ph="..." />
+                <marker date="1544809099860" expanded="true" signature="603:753" ph="..." />
+                <marker date="1544809099860" expanded="true" signature="1149:1484" ph="..." />
+                <marker date="1544809099860" expanded="true" signature="1516:1525" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kNN.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playML/metrics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="366">
+              <caret line="201" column="33" selection-start-line="201" selection-start-column="33" selection-end-line="201" selection-end-column="33" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <marker date="1543464577059" expanded="true" signature="120:278" ph="..." />
+                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#119#317#0" />
+                <element signature="e#367#568#0" />
+                <element signature="e#2227#3857#0" />
+                <element signature="e#2267#2774#0" />
+                <element signature="e#2267#2542#1" />
+                <element signature="e#2834#3743#0" />
+                <marker date="1544808774208" expanded="false" signature="2230:2235" ph="..." />
+                <marker date="1544808774208" expanded="true" signature="3933:3934" ph="..." />
+                <marker date="1544808774208" expanded="true" signature="4866:4954" ph="..." />
+                <marker date="1544808774208" expanded="true" signature="5022:5380" ph="..." />
+                <marker date="1544808774208" expanded="true" signature="5178:5307" ph="..." />
+                <marker date="1544808774208" expanded="true" signature="5334:5380" ph="..." />
+                <marker date="1544808774208" expanded="true" signature="5725:5726" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playML/kNN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -75,10 +205,31 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/kNN_classify.py" />
+        <option value="$PROJECT_DIR$/model_selection.py" />
+        <option value="$PROJECT_DIR$/palyML/model_selection.py" />
+        <option value="$PROJECT_DIR$/palyML/kNN.py" />
+        <option value="$PROJECT_DIR$/palyML/__init__.py" />
+        <option value="$PROJECT_DIR$/playML/model_selection.py" />
+        <option value="$PROJECT_DIR$/playML/kNN.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/console_2.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/console_3.sql" />
+        <option value="$PROJECT_DIR$/playML/preprocessing.py" />
+        <option value="$PROJECT_DIR$/playML/SimpleLinearRegression1.py" />
+        <option value="$PROJECT_DIR$/playML/SimpleLinearRegression.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/console_1.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/console_4.sql" />
+        <option value="$PROJECT_DIR$/playML/LinearRegression.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/week_2assign_2.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/console.sql" />
+        <option value="$PROJECT_DIR$/playML/metrics.py" />
+        <option value="$PROJECT_DIR$/playML/Bayers.py" />
       </list>
     </option>
   </component>
@@ -88,9 +239,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-174" />
-    <option name="width" value="2565" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-75" />
+    <option name="width" value="2265" />
     <option name="height" value="2055" />
   </component>
   <component name="ProjectView">
@@ -98,31 +249,54 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Pattern-Recognition-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pattern-Recognition-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Pattern-Recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pattern-Recognition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Pattern-Recognition-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pattern-Recognition-master" type="462c0819:PsiDirectoryNode" />
-              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
+              <item name="Pattern-Recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pattern-Recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="playML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pattern-Recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="Pattern-Recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="Pattern-Recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="1ce7bf75-c5ee-43c7-9a76-8067076ba0bf" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SearchEverywhereHistoryKey" value="x&#9;FILE&#9;file://E:/workspace/PycharmProjects/Pattern-Recognition/.idea/misc.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="E:/documents/onedrive/OneDrive - hk sar baomin inc/CS_exp/database" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\PycharmProjects\Pattern-Recognition\palyML" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -174,17 +348,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1292" height="692" extended-state="7" />
+    <frame x="-6" y="-6" width="1292" height="692" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15695792" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10598706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" weight="0.21669628" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3285968" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -192,12 +360,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" x="0" y="0" width="112" height="485" id="Documentation" side_tool="true" visible="true" weight="0.10194175" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.27402136" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.21669628" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="13" visible="true" weight="0.19217081" />
+      <window_info anchor="bottom" id="SQL Generator" order="14" visible="true" weight="0.06049822" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49339208" visible="true" weight="0.32928804" />
+      <window_info anchor="right" x="0" y="0" width="112" height="485" id="Documentation" order="4" sideWeight="0.50660795" side_tool="true" visible="true" weight="0.32928804" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.872093" weight="0.46278316" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +387,16 @@
     <option name="LAST_COMMIT_MESSAGE" value="完成kNN的类封装" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/playML/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="933" column="17" lean-forward="true" selection-start-line="933" selection-start-column="17" selection-end-line="933" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -219,13 +405,184 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kNN.py">
+    <entry file="das://1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/schema/school/table/c/index/yxh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iris_plt.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k_nn.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/console_2.sql" />
+    <entry file="das://1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/schema/school/table/c">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/schema/school/table/d">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/schema/school/table/e">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/schema/school/table/s">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/schema/school/table/t">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/exp_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1881">
+          <caret line="99" column="49" lean-forward="true" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/week_1研讨1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/schema/school/table/o">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/week_2assign_2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/model_selection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/SimpleLinearRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/LinearRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="70" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1543464577059" expanded="true" signature="120:278" ph="..." />
+            <element signature="e#1582#3079#0" />
+            <element signature="e#3133#3546#0" />
+            <marker date="1544342511536" expanded="true" signature="74:75" ph="..." />
+            <marker date="1544342511536" expanded="true" signature="74:80" ph="..." />
+            <marker date="1544342511536" expanded="true" signature="698:747" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/schema/school/table/table_1">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/kNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="201" column="33" selection-start-line="201" selection-start-column="33" selection-end-line="201" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#119#317#0" />
+            <element signature="e#367#568#0" />
+            <element signature="e#2227#3857#0" />
+            <element signature="e#2267#2774#0" />
+            <element signature="e#2267#2542#1" />
+            <element signature="e#2834#3743#0" />
+            <marker date="1544808774208" expanded="false" signature="2230:2235" ph="..." />
+            <marker date="1544808774208" expanded="true" signature="3933:3934" ph="..." />
+            <marker date="1544808774208" expanded="true" signature="4866:4954" ph="..." />
+            <marker date="1544808774208" expanded="true" signature="5022:5380" ph="..." />
+            <marker date="1544808774208" expanded="true" signature="5178:5307" ph="..." />
+            <marker date="1544808774208" expanded="true" signature="5334:5380" ph="..." />
+            <marker date="1544808774208" expanded="true" signature="5725:5726" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/Bayers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1544809099860" expanded="true" signature="96:262" ph="..." />
+            <marker date="1544809099860" expanded="true" signature="603:753" ph="..." />
+            <marker date="1544809099860" expanded="true" signature="1149:1484" ph="..." />
+            <marker date="1544809099860" expanded="true" signature="1516:1525" ph="..." />
           </folding>
         </state>
       </provider>
