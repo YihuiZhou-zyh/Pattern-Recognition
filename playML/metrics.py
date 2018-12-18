@@ -41,6 +41,7 @@ def plot_decision_boundary(ax, model, X, h=.02):
 
 
 def plot_decision_boundary_svm(ax, svm, X):
+    """this plots the boundary line plus the margin of the svm model"""
     xx, yy = make_meshgrid(X[:, 0], X[:, 1])
     plot_contours(ax, svm, xx, yy, cmap=plt.cm.coolwarm, alpha=0.8)
     w = svm.coef_[0]
@@ -76,6 +77,7 @@ def plot_learning_curve(model, X_train, y_train, X_test, y_test):
 
 
 def confusion_matrix(y_predict, y_true):
+    """calculate confusion _matrix between y_predict and y_true"""
     return np.array([
         [TN(y_predict, y_true), FP(y_predict, y_true)],
         [FN(y_predict, y_true), TP(y_predict, y_true)]
@@ -83,6 +85,7 @@ def confusion_matrix(y_predict, y_true):
 
 
 def precision_score(y_predict, y_true):
+    """calculate the precision score between y_predict and y_true"""
     try:
         return TP(y_predict, y_true) / (TP(y_predict, y_true) + FP(y_predict, y_true))
     except:
@@ -90,6 +93,7 @@ def precision_score(y_predict, y_true):
 
 
 def recall_score(y_predict, y_true):
+    """calculate the recall score between y_predict and y_true"""
     try:
         return TP(y_predict, y_true) / (TP(y_predict, y_true) + FN(y_predict, y_true))
     except:
@@ -97,6 +101,7 @@ def recall_score(y_predict, y_true):
 
 
 def roc(decision_scores, y_test):
+    """bug has not been solved"""
     fprs = []
     tprs = []
     thresholds = np.arange(np.min(decision_scores), np.max(decision_scores))

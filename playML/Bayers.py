@@ -1,7 +1,7 @@
 import numpy as np
 from numpy.linalg import inv
 
-from .metrics import r2_score
+from .metrics import r2_score, accuracy_score
 
 
 class BayersGN:
@@ -35,9 +35,9 @@ class BayersGN:
         return b
 
     def score(self, X_test, y_test):
-        """根据数据集X_test，y_test计算准确度 默认为r2_score"""
+        """根据数据集X_test，y_test计算准确度 分类准确度使用accuracy_score"""
         y_predict = self.predict(X_test)
-        return r2_score(y_test, y_predict)
+        return accuracy_score(y_test, y_predict)
 
     def _rvs_g(self, Xi):
         if self._cov[0].ndim == 0:
