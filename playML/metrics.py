@@ -2,6 +2,7 @@ from math import sqrt
 
 import numpy as np
 import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
 
 from playML.utils import make_meshgrid, plot_contours, TP, FN, FP, TN, FPR, TPR
 
@@ -38,6 +39,24 @@ def r2_score(y_true, y_predict):
 def plot_decision_boundary(ax, model, X, h=.02):
     xx, yy = make_meshgrid(X[:, 0], X[:, 1], h)
     plot_contours(ax, model, xx, yy, cmap=plt.cm.coolwarm, alpha=0.8)
+
+
+def plot_con_surface(clf, X, Y, labels, h=0.2):
+    xx, yy = make_meshgrid(X[:, 0], X[:, 1], h)
+    w = clf._w
+    w0 = clf._w0
+    Z = -(w0 + w[0] * xx + w[1] * yy) / w[2]
+    fig = plt.figure()
+    ax = Axes3D(fig)
+    out = ax.plot_surface(xx, yy, Z, rstride=1, cstride=1, cmap='rainbow')
+    ax.scatter(X[:, 0], X[:, 1], X[:, 2], c=Y)
+    ax.set_xlabel(labels[0])
+    #     ax.w_xaxis.set_ticklabels([])
+    ax.set_ylabel(labels[1])
+    #     ax.w_yaxis.set_ticklabels([])
+    ax.set_zlabel(labels[2])
+    #     ax.w_zaxis.set_ticklabels([])
+    plt.show()
 
 
 def plot_decision_boundary_svm(ax, svm, X):
@@ -110,3 +129,17 @@ def roc(decision_scores, y_test):
         fprs.append(FPR(y_pred, y_test))
         tprs.append(TPR(y_pred, y_test))
     return fprs, tprs, thresholds
+
+
+def LeaveOneOut(X, y, clf):
+    """留一法"""
+    score = 0
+    for i in range(len(X)):
+        index = np.ones(len(X), dtype=np.bool)
+        index[i] = False
+        x_test = X[i]
+        y_test = y[i]
+        clf.fit(X[index, :], y[index, :])
+        score += clf.score(x_test.reshape(1, -1), y_test.reshape(1, -1))
+
+    return score / len(y)

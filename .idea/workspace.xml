@@ -2,35 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="726095a8-5af7-4a86-bed0-aa750e528cd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Pattern-Recognition-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Pattern-Recognition-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playML/LDA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playML/parzen.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Amo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Amo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bayers_fm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Bayers_fm.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bayers_no_sklearn_2d.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Bayers_no_sklearn_2d.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Untitled1.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bayers1d.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/bayers1d.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bayers_3d.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/bayers_3d.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/boy.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/girl.txt" beforeDir="false" afterPath="$PROJECT_DIR$/girl.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playML/Bayers.py" beforeDir="false" afterPath="$PROJECT_DIR$/playML/Bayers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playML/LinearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/playML/LinearRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playML/SimpleLinearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/playML/SimpleLinearRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playML/kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/playML/kNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Bayers_no_sklearn_2d-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Bayers_no_sklearn_2d-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bayers/Bayers_no_sklearn_2d.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bayers/bayers_3d.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Bayers/bayers_3d.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grid_search&amp;Scaler.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Grid_search&amp;Scaler.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k_nn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/k_nn.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playML/metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/playML/metrics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playML/model_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/playML/model_selection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playML/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/playML/preprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playML/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/playML/utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,40 +38,33 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="school@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="shumes" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="school@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="shumes" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shumes" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="SHUMes: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shumes" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="SHUMes: database" type="6d9b600a:PostgresImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="school@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="shumes" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="SHUMes: database" type="6d9b600a:PostgresImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="school: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="school@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="school: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="school@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="school: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="views" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="school@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="school: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="views" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="nonpassstu: view" type="bd137a56:MysqlImplModel$View" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -191,39 +166,109 @@
     <session id="2040372663">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="ipynb" value="5" />
+          <entry key="c" value="2" />
+          <entry key="e" value="2" />
+          <entry key="ipynb" value="7" />
+          <entry key="news" value="1" />
+          <entry key="o" value="1" />
+          <entry key="py" value="22" />
+          <entry key="sql" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IPNB" value="5" />
+          <entry key="Database Element" value="6" />
+          <entry key="IPNB" value="7" />
+          <entry key="Python" value="22" />
+          <entry key="Scratch" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="412" />
+          <entry key="py" value="2036" />
+          <entry key="sql" value="155" />
+          <entry key="txt" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="412" />
+          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="Python" value="2036" />
+          <entry key="Scratch" value="155" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/playML/Bayers.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playML/LDA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            <state relative-caret-position="638">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1546432547016" expanded="true" signature="103:108" ph="..." />
+                <marker date="1546432547016" expanded="true" signature="1491:1552" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/playML/kNN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="783">
+              <caret line="40" column="61" lean-forward="true" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playML/parzen.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1546469058742" expanded="true" signature="481:486" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playML/metrics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="801">
+              <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <marker date="1546471805247" expanded="true" signature="4378:4383" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playML/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -232,10 +277,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/playML/kNN.py">
+        <entry file="file:///opt/anaconda/lib/python3.7/site-packages/sklearn/model_selection/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="174">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///opt/anaconda/lib/python3.7/site-packages/sklearn/model_selection/_split.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="859">
+              <caret line="194" column="25" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playML/Bayers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///opt/anaconda/lib/python3.7/site-packages/sklearn/utils/validation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///opt/anaconda/lib/python3.7/site-packages/statsmodels/nonparametric/_kernel_base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="656">
+              <caret line="422" column="8" lean-forward="true" selection-start-line="422" selection-start-column="8" selection-end-line="425" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -271,12 +355,16 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/console_4.sql" />
         <option value="$PROJECT_DIR$/playML/LinearRegression.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/week_2assign_2.sql" />
-        <option value="$PROJECT_DIR$/playML/utils.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/console.sql" />
         <option value="$PROJECT_DIR$/playML/Bayers.py" />
-        <option value="$PROJECT_DIR$/playML/metrics.py" />
         <option value="$PROJECT_DIR$/bayers1d.ipynb" />
         <option value="$PROJECT_DIR$/bayers_3d.ipynb" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5dc9ccc1-deb8-433c-b2ed-c84fa8550aa3/console.sql" />
+        <option value="$PROJECT_DIR$/playML/__init__.py" />
+        <option value="$PROJECT_DIR$/playML/LDA.py" />
+        <option value="$PROJECT_DIR$/playML/parzen.py" />
+        <option value="$PROJECT_DIR$/playML/metrics.py" />
+        <option value="$PROJECT_DIR$/playML/utils.py" />
       </list>
     </option>
   </component>
@@ -287,15 +375,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-75" />
-    <option name="width" value="2265" />
-    <option name="height" value="2055" />
+    <option name="x" value="338" />
+    <option name="y" value="220" />
+    <option name="width" value="2862" />
+    <option name="height" value="1546" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,27 +400,66 @@
             </path>
             <path>
               <item name="Pattern-Recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pattern-Recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="playML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pattern-Recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Pattern-Recognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="Pattern-Recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="Pattern-Recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="1ce7bf75-c5ee-43c7-9a76-8067076ba0bf" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="Pattern-Recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="Pattern-Recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="Pattern-Recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="schema" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="SearchEverywhereHistoryKey" value="x&#9;FILE&#9;file://E:/workspace/PycharmProjects/Pattern-Recognition/.idea/misc.xml" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;postgresql" />
+    <property name="SearchEverywhereHistoryKey" value="LeaveOne&#9;null&#9;null&#10;x&#9;FILE&#9;file://E:/workspace/PycharmProjects/Pattern-Recognition/.idea/misc.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CART_Decision_tree" />
+      <recent name="$PROJECT_DIR$/Bayers" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/.ipynb_checkpoints" />
       <recent name="E:\workspace\PycharmProjects\Pattern-Recognition\palyML" />
@@ -401,12 +530,21 @@
       <option name="presentableId" value="Default" />
       <updated>1543460843927</updated>
     </task>
+    <task id="LOCAL-00001" summary="修改bayer accuracy，不能使用R_square">
+      <created>1545125030225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545125030225</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-26" width="3200" height="1726" extended-state="7" />
+    <frame x="0" y="-26" width="3200" height="1726" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18850353" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.209377" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -417,21 +555,21 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.040383298" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.27402136" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.21492007" />
-      <window_info anchor="bottom" id="Database Console" order="13" weight="0.569395" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.21423683" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="13" visible="true" weight="0.6487119" />
       <window_info anchor="bottom" id="SQL Generator" order="14" visible="true" weight="0.06049822" />
-      <window_info anchor="right" id="R Graphics" />
-      <window_info anchor="right" id="R Packages" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" sideWeight="0.48979592" weight="0.32928804" />
       <window_info anchor="right" x="0" y="0" width="112" height="485" id="Documentation" order="4" sideWeight="0.13345195" side_tool="true" visible="true" weight="0.07524272" />
-      <window_info anchor="right" id="Database" order="5" sideWeight="0.86654806" visible="true" weight="0.07514451" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.86654806" visible="true" weight="0.30892742" />
+      <window_info anchor="right" id="R Graphics" order="6" />
+      <window_info anchor="right" id="R Packages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,12 +580,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成kNN的类封装" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成kNN的类封装" />
+    <MESSAGE value="修改bayer accuracy，不能使用R_square" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改bayer accuracy，不能使用R_square" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/playML/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/core/fromnumeric.py" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -491,13 +627,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/week_2assign_2.sql" />
-    <entry file="file://$PROJECT_DIR$/playML/model_selection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/playML/SimpleLinearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -505,24 +634,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playML/preprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/playML/LinearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
           <caret line="37" column="70" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/playML/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
@@ -541,29 +656,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/schema/school/table/c">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/schema/school/table/o">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/schema/school/table/table_1">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/console.sql" />
-    <entry file="das://1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/schema/school/table/e">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -577,51 +670,209 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playML/metrics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/playML/kNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bayers1d.ipynb">
+    <entry file="file://$PROJECT_DIR$/Bayers/bayers1d.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bayers_3d.ipynb">
+    <entry file="file://$PROJECT_DIR$/Bayers/bayers_3d.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bayers_fm.ipynb">
+    <entry file="file://$PROJECT_DIR$/Bayers/Bayers_fm.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playML/Bayers.py">
+    <entry file="file://$PROJECT_DIR$/SVM.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CART_Decision_tree/Voting_Classifier.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/anaconda/lib/python3.7/site-packages/mpl_toolkits/mplot3d/axes3d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="1600" column="33" lean-forward="true" selection-start-line="1600" selection-start-column="33" selection-end-line="1600" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/anaconda/lib/python3.7/site-packages/numpy/lib/index_tricks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1412">
+          <caret line="500" column="12" lean-forward="true" selection-start-line="500" selection-start-column="12" selection-end-line="500" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/schema/school/table/o">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/schema/school/table/e">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/schema/school/table/c">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ecbc78d3-272a-4209-89e9-709ab97152dc/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/47c4a06e-d5ea-4cbf-bda4-27c7459d1e20/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5dc9ccc1-deb8-433c-b2ed-c84fa8550aa3/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://5dc9ccc1-deb8-433c-b2ed-c84fa8550aa3/database/SHUMes/schema/public/table/news">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/model_selection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/anaconda/lib/python3.7/site-packages/sklearn/cross_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="110" column="37" lean-forward="true" selection-start-line="110" selection-start-column="37" selection-end-line="110" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/anaconda/lib/python3.7/site-packages/sklearn/model_selection/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/anaconda/lib/python3.7/site-packages/sklearn/model_selection/_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="859">
+          <caret line="194" column="25" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/anaconda/lib/python3.7/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/anaconda/lib/python3.7/site-packages/statsmodels/nonparametric/_kernel_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="422" column="8" lean-forward="true" selection-start-line="422" selection-start-column="8" selection-end-line="425" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/LDA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1546432547016" expanded="true" signature="103:108" ph="..." />
+            <marker date="1546432547016" expanded="true" signature="1491:1552" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/Bayers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/parzen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1546469058742" expanded="true" signature="481:486" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="801">
+          <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1546471805247" expanded="true" signature="4378:4383" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/kNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="40" column="61" lean-forward="true" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
         </state>
       </provider>
     </entry>

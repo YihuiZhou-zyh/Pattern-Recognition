@@ -1,6 +1,6 @@
 import numpy as np
-
-
+from mpl_toolkits.mplot3d import Axes3D
+import matplotlib.pyplot as plt
 
 def make_meshgrid(x, y, h):
     """Create a mesh of points to plot in
@@ -36,6 +36,7 @@ def plot_contours(ax, clf, xx, yy, **params):
     Z = clf.predict(np.c_[xx.ravel(), yy.ravel()])
     Z = Z.reshape(xx.shape)
     out = ax.contourf(xx, yy, Z, **params)
+    # ax.clabel(out, inline=True, fontsize=12)
     return out
 
 
