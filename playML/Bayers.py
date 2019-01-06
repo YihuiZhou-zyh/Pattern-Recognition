@@ -1,11 +1,13 @@
+from collections import Counter
+
 import numpy as np
 from numpy.linalg import inv
 
-from .metrics import r2_score, accuracy_score
+from .metrics import accuracy_score
 
 
 class BayersGN:
-    def __init__(self, priors=[0.5, 0.5]):
+    def __init__(self, priors=None):
         """初始化Linear Regression模型"""
         self.priors = priors
         self._mean = None
@@ -18,6 +20,10 @@ class BayersGN:
         X_train = np.array(X_train)
         y_train = np.array(y_train)
         sorted_y = np.sort(np.unique(y_train))
+        if self.priors is None:
+            c = Counter(y_train)
+            _sum = sum(c.values())
+            self.priors = [c[y] / _sum for y in sorted_y]
         self._mean = [X_train[y_train == y].mean(axis=0) for y in sorted_y]
         self._cov = [np.cov(X_train[y_train == y].T) for y in sorted_y]
         return self
@@ -31,7 +37,7 @@ class BayersGN:
         return np.argsort(self._rvs_g(Xi))[0]
 
     def decision_function(self, X_test):
-        b = [self._rvs_g(X_test[i])[0]-self._rvs_g(X_test[i])[1] for i in range(len(X_test))]
+        b = [self._rvs_g(X_test[i])[0] - self._rvs_g(X_test[i])[1] for i in range(len(X_test))]
         return b
 
     def score(self, X_test, y_test):

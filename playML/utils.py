@@ -2,7 +2,20 @@ import numpy as np
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 
-def make_meshgrid(x, y, h):
+
+def split_one(X, y, i):
+    """forge one element as a test sample
+    Returns
+    -------
+    X_train, y_train, x_test, y_test
+    """
+    index = np.ones(len(X), dtype=np.bool)
+    index[i] = False
+    x_test, y_test = X[i], y[i]
+    return X[index], y[index], x_test, y_test
+
+
+def make_meshgrid(x, y, h=0.2):
     """Create a mesh of points to plot in
 
     Parameters

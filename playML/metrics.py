@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-from playML.utils import make_meshgrid, plot_contours, TP, FN, FP, TN, FPR, TPR
+from playML.utils import make_meshgrid, plot_contours, TP, FN, FP, TN, FPR, TPR, split_one
 
 
 def accuracy_score(y_true, y_predict):
@@ -38,6 +38,8 @@ def r2_score(y_true, y_predict):
 
 def plot_decision_boundary(ax, model, X, h=.02):
     xx, yy = make_meshgrid(X[:, 0], X[:, 1], h)
+    # ax.xlim(xx.min(), xx.max())
+    # ax.ylim(yy.min(), yy.max())
     plot_contours(ax, model, xx, yy, cmap=plt.cm.coolwarm, alpha=0.8)
 
 
@@ -132,14 +134,14 @@ def roc(decision_scores, y_test):
 
 
 def LeaveOneOut(X, y, clf):
-    """留一法"""
+    """
+    留一法
+    returns accuracy of the method
+    """
     score = 0
     for i in range(len(X)):
-        index = np.ones(len(X), dtype=np.bool)
-        index[i] = False
-        x_test = X[i]
-        y_test = y[i]
-        clf.fit(X[index, :], y[index, :])
+        X_train, y_train, x_test, y_test = split_one(X, y, i)
+        clf.fit(X_train, y_train)
         score += clf.score(x_test.reshape(1, -1), y_test.reshape(1, -1))
 
     return score / len(y)

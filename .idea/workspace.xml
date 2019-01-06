@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="726095a8-5af7-4a86-bed0-aa750e528cd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/playML/LDA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playML/parzen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Bayers_no_sklearn_2d-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Bayers_no_sklearn_2d-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bayers/Bayers_no_sklearn_2d.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bayers/bayers_3d.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Bayers/bayers_3d.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Grid_search&amp;Scaler.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Grid_search&amp;Scaler.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Grid_search&amp;Scaler-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bayers_no_sklearn_2d.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Bayers_no_sklearn_2d.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grid_search&amp;Scaler.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LDA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/LDA.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fm_2018.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/girl.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/k_nn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/k_nn.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playML/Bayers.py" beforeDir="false" afterPath="$PROJECT_DIR$/playML/Bayers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playML/LDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/playML/LDA.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playML/metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/playML/metrics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playML/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/playML/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,9 +178,10 @@
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -185,7 +191,7 @@
           <entry key="ipynb" value="7" />
           <entry key="news" value="1" />
           <entry key="o" value="1" />
-          <entry key="py" value="22" />
+          <entry key="py" value="26" />
           <entry key="sql" value="6" />
         </counts>
       </usages-collector>
@@ -193,21 +199,21 @@
         <counts>
           <entry key="Database Element" value="6" />
           <entry key="IPNB" value="7" />
-          <entry key="Python" value="22" />
+          <entry key="Python" value="26" />
           <entry key="Scratch" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2036" />
+          <entry key="py" value="2456" />
           <entry key="sql" value="155" />
-          <entry key="txt" value="47" />
+          <entry key="txt" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="47" />
-          <entry key="Python" value="2036" />
+          <entry key="PLAIN_TEXT" value="93" />
+          <entry key="Python" value="2456" />
           <entry key="Scratch" value="155" />
         </counts>
       </usages-collector>
@@ -216,33 +222,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/playML/LDA.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <marker date="1546432547016" expanded="true" signature="103:108" ph="..." />
-                <marker date="1546432547016" expanded="true" signature="1491:1552" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/playML/kNN.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="40" column="61" lean-forward="true" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playML/parzen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="116">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <marker date="1546469058742" expanded="true" signature="481:486" ph="..." />
@@ -252,23 +235,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/playML/metrics.py">
+        <entry file="file://$PROJECT_DIR$/playML/kNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="801">
-              <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-                <marker date="1546471805247" expanded="true" signature="4378:4383" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/playML/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            <state relative-caret-position="1247">
+              <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -277,19 +247,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///opt/anaconda/lib/python3.7/site-packages/sklearn/model_selection/__init__.py">
+        <entry file="file://$PROJECT_DIR$/playML/metrics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///opt/anaconda/lib/python3.7/site-packages/sklearn/model_selection/_split.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="859">
-              <caret line="194" column="25" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="25" />
+            <state relative-caret-position="505">
+              <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <marker date="1546763083481" expanded="true" signature="4457:4462" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -297,29 +262,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playML/Bayers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+            <state>
+              <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/playML/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+                <marker date="1546759948697" expanded="true" signature="227:372" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///opt/anaconda/lib/python3.7/site-packages/sklearn/utils/validation.py">
+        <entry file="file:///opt/anaconda/lib/python3.7/collections/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///opt/anaconda/lib/python3.7/site-packages/statsmodels/nonparametric/_kernel_base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="422" column="8" lean-forward="true" selection-start-line="422" selection-start-column="8" selection-end-line="425" selection-end-column="29" />
+            <state relative-caret-position="-6">
+              <caret line="494" column="8" lean-forward="true" selection-start-line="494" selection-start-column="8" selection-end-line="494" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -355,14 +321,14 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/console_4.sql" />
         <option value="$PROJECT_DIR$/playML/LinearRegression.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/week_2assign_2.sql" />
-        <option value="$PROJECT_DIR$/playML/Bayers.py" />
         <option value="$PROJECT_DIR$/bayers1d.ipynb" />
         <option value="$PROJECT_DIR$/bayers_3d.ipynb" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1ce7bf75-c5ee-43c7-9a76-8067076ba0bf/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5dc9ccc1-deb8-433c-b2ed-c84fa8550aa3/console.sql" />
         <option value="$PROJECT_DIR$/playML/__init__.py" />
-        <option value="$PROJECT_DIR$/playML/LDA.py" />
         <option value="$PROJECT_DIR$/playML/parzen.py" />
+        <option value="$PROJECT_DIR$/playML/LDA.py" />
+        <option value="$PROJECT_DIR$/playML/Bayers.py" />
         <option value="$PROJECT_DIR$/playML/metrics.py" />
         <option value="$PROJECT_DIR$/playML/utils.py" />
       </list>
@@ -537,14 +503,28 @@
       <option name="project" value="LOCAL" />
       <updated>1545125030225</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更新parzen窗，LDA，张学工的红皮书值得深入研究，正在钻研可压缩的knn">
+      <created>1546480896053</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546480896053</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新parzen窗，LDA，张学工的红皮书值得深入研究，正在钻研可压缩的knn">
+      <created>1546481006821</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546481006821</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-26" width="3200" height="1726" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.209377" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21515736" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -559,7 +539,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.27402136" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.21423683" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.11909651" />
       <window_info active="true" anchor="bottom" id="Database Console" order="13" visible="true" weight="0.6487119" />
       <window_info anchor="bottom" id="SQL Generator" order="14" visible="true" weight="0.06049822" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -567,7 +547,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" sideWeight="0.48979592" weight="0.32928804" />
       <window_info anchor="right" x="0" y="0" width="112" height="485" id="Documentation" order="4" sideWeight="0.13345195" side_tool="true" visible="true" weight="0.07524272" />
-      <window_info anchor="right" id="Database" order="5" sideWeight="0.86654806" visible="true" weight="0.30892742" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.86654806" visible="true" weight="0.12716763" />
       <window_info anchor="right" id="R Graphics" order="6" />
       <window_info anchor="right" id="R Packages" order="7" />
     </layout>
@@ -581,7 +561,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成kNN的类封装" />
     <MESSAGE value="修改bayer accuracy，不能使用R_square" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改bayer accuracy，不能使用R_square" />
+    <MESSAGE value="更新parzen窗，LDA，张学工的红皮书值得深入研究，正在钻研可压缩的knn" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新parzen窗，LDA，张学工的红皮书值得深入研究，正在钻研可压缩的knn" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/core/fromnumeric.py" />
@@ -787,6 +768,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/playML/LDA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <marker date="1546548920213" expanded="true" signature="1496:1557" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///opt/anaconda/lib/python3.7/site-packages/sklearn/model_selection/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -796,51 +787,36 @@
     </entry>
     <entry file="file:///opt/anaconda/lib/python3.7/site-packages/sklearn/model_selection/_split.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
+        <state relative-caret-position="5075">
           <caret line="194" column="25" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file:///opt/anaconda/lib/python3.7/site-packages/sklearn/utils/validation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
+        <state relative-caret-position="2639">
+          <caret line="103" column="13" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file:///opt/anaconda/lib/python3.7/site-packages/statsmodels/nonparametric/_kernel_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="422" column="8" lean-forward="true" selection-start-line="422" selection-start-column="8" selection-end-line="425" selection-end-column="29" />
+        <state relative-caret-position="1143">
+          <caret line="422" column="8" selection-start-line="422" selection-start-column="8" selection-end-line="425" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playML/LDA.py">
+    <entry file="file:///opt/anaconda/lib/python3.7/site-packages/numpy/core/fromnumeric.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1546432547016" expanded="true" signature="103:108" ph="..." />
-            <marker date="1546432547016" expanded="true" signature="1491:1552" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/playML/Bayers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="792">
+          <caret line="868" column="35" lean-forward="true" selection-start-line="868" selection-start-column="35" selection-end-line="868" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/playML/parzen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="116">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <marker date="1546469058742" expanded="true" signature="481:486" ph="..." />
@@ -848,31 +824,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playML/metrics.py">
+    <entry file="file:///opt/anaconda/lib/python3.7/collections/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <marker date="1546471805247" expanded="true" signature="4378:4383" ph="..." />
-          </folding>
+        <state relative-caret-position="-6">
+          <caret line="494" column="8" lean-forward="true" selection-start-line="494" selection-start-column="8" selection-end-line="494" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playML/utils.py">
+    <entry file="file://$PROJECT_DIR$/playML/Bayers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/kNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1247">
+          <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playML/kNN.py">
+    <entry file="file://$PROJECT_DIR$/playML/metrics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="40" column="61" lean-forward="true" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+        <state relative-caret-position="505">
+          <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1546763083481" expanded="true" signature="4457:4462" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1546759948697" expanded="true" signature="227:372" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,11 +1,10 @@
-import numpy as np
 from numpy.linalg import inv
-
+import numpy as np
 from playML.metrics import accuracy_score
 
 
 class LDA:
-    def __init__(self, priors =[0.5,0.5]):
+    def __init__(self, priors=[0.5, 0.5]):
         """init the LDA model"""
         """between-class scatter matrix"""
         self._Sb = None
@@ -33,14 +32,14 @@ class LDA:
         self._Sb = np.matmul(mean_minus, mean_minus.T)
         inv_Sw = inv(self._Sw)
         self._w = np.matmul(inv_Sw, mean_minus)
-        self._w0 = -1/2 * np.matmul(mean_add.T, self._w) - np.log(self._priors[0]/self._priors[1])
+        self._w0 = -1 / 2 * np.matmul(mean_add.T, self._w) - np.log(self._priors[0] / self._priors[1])
         return self
 
     def predict(self, X_test):
         return np.array([self._predict(x) for x in X_test])
 
     def _predict(self, X_test):
-        return np.array([self._g(X_test)>0], dtype="float64")
+        return np.array([self._g(X_test) < 0], dtype="float64")
 
     def _g(self, X_test):
         return np.matmul(self._w.T, X_test) + self._w0
