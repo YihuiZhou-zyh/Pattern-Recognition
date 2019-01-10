@@ -58,24 +58,24 @@ def plot_con_surface(clf, X, Y, labels, h=0.2):
     #     ax.w_yaxis.set_ticklabels([])
     ax.set_zlabel(labels[2])
     #     ax.w_zaxis.set_ticklabels([])
-    plt.show()
 
 
-def plot_decision_boundary_svm(ax, svm, X):
+def plot_decision_boundary_svm(ax, svm, X, h=0.02):
     """this plots the boundary line plus the margin of the svm model"""
-    xx, yy = make_meshgrid(X[:, 0], X[:, 1])
+    xx, yy = make_meshgrid(X[:, 0], X[:, 1], h=h)
     plot_contours(ax, svm, xx, yy, cmap=plt.cm.coolwarm, alpha=0.8)
     w = svm.coef_[0]
     b = svm.intercept_[0]
     # w0 * x0 + w1 * x1 + b = 0
     # => x1 = (-w0 * x0 - b) / w1
+    # y = -w[0] / w[1] * xx + 1 / w[1]
     up_y = -w[0] / w[1] * xx - b / w[1] + 1 / w[1]
     down_y = -w[0] / w[1] * xx - b / w[1] - 1 / w[1]
     up_index = ((up_y >= yy.min()) & (up_y <= yy.max()))
     down_index = ((down_y >= yy.min()) & (down_y <= yy.max()))
+    # plt.plot(xx, y)
     plt.plot(xx[up_index], up_y[up_index])
     plt.plot(xx[down_index], down_y[down_index])
-    plt.show()
 
 
 def plot_learning_curve(model, X_train, y_train, X_test, y_test):
