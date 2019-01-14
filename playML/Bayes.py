@@ -6,7 +6,7 @@ from numpy.linalg import inv
 from .metrics import accuracy_score
 
 
-class BayerGN:
+class BayesGN:
     def __init__(self, priors=None):
         """初始化Linear Regression模型"""
         self.priors = priors

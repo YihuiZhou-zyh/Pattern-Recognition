@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="726095a8-5af7-4a86-bed0-aa750e528cd6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/bayers1d-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bayers1d.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bayes1d.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playML/Bayers.py" beforeDir="false" afterPath="$PROJECT_DIR$/playML/Bayes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bayes/Bayers_no_sklearn_2d.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Bayers_no_sklearn_2d.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayes1d.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Bayes/bayes1d.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playML/Bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/playML/Bayes.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -220,14 +218,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="3" />
-          <entry key="ipynb" value="11" />
+          <entry key="ipynb" value="14" />
           <entry key="md" value="1" />
           <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IPNB" value="11" />
+          <entry key="IPNB" value="14" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="9" />
@@ -236,15 +234,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="13" />
-          <entry key="py" value="70" />
-          <entry key="txt" value="120" />
+          <entry key="py" value="72" />
+          <entry key="txt" value="121" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="13" />
-          <entry key="PLAIN_TEXT" value="120" />
-          <entry key="Python" value="70" />
+          <entry key="PLAIN_TEXT" value="121" />
+          <entry key="Python" value="72" />
         </counts>
       </usages-collector>
     </session>
@@ -285,14 +283,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playML/Bayes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="928">
-              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+            <state relative-caret-position="232">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bayes/Bayers_fm.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bayers_no_sklearn_2d.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="3" />
             </state>
           </provider>
         </entry>
@@ -341,6 +357,8 @@
         <option value="$PROJECT_DIR$/playML/metrics.py" />
         <option value="$PROJECT_DIR$/playML/SVM.py" />
         <option value="$PROJECT_DIR$/playML/Bayers.py" />
+        <option value="$PROJECT_DIR$/playML/Bayes.py" />
+        <option value="$PROJECT_DIR$/Bayers_no_sklearn_2d.ipynb" />
       </list>
     </option>
   </component>
@@ -404,11 +422,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Bayes" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Bayers" />
       <recent name="$PROJECT_DIR$/CART_Decision_tree" />
       <recent name="$PROJECT_DIR$/.ipynb_checkpoints" />
-      <recent name="E:\workspace\PycharmProjects\Pattern-Recognition\palyML" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -563,11 +581,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547483454263</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Bayes修改数据集">
+      <created>1547483901294</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1547483901294</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-26" width="3200" height="1726" extended-state="6" />
+    <frame x="0" y="-26" width="3200" height="1726" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23249839" />
@@ -640,13 +665,6 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bayes/Bayers_fm.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
         </state>
       </provider>
     </entry>
@@ -806,13 +824,6 @@
         <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bayes/Bayers_no_sklearn_2d.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/playML/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
@@ -914,20 +925,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bayes1d.ipynb">
+    <entry file="file://$PROJECT_DIR$/Bayes/bayes1d.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="1" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Bayes/Bayers_fm.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/playML/Bayes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        <state relative-caret-position="232">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bayers_no_sklearn_2d.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="3" />
         </state>
       </provider>
     </entry>
